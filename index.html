@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -48,6 +48,55 @@
 </head>
 <body>
     
-</body         >
+  <!--
+    -#HEADER
+  -->
+
+  <header class="top-app-bar" data-header>
+
+    <button class="icon-btn" aria-label="Open menu" data-nav-toggler data-ripple>
+        <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+
+        <div class="state-layer"></div>
+    </button>
+
+    <a href="/" class="logo">Pixstock</a>
+
+    <div class="search-view" data-search-view>
+
+        <div class="search-bar">
+
+            <button class="icon-btn search-open" aria-label="Close search" data-search-toggler data-ripple>
+                <span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
+                <div class="state-layer"></div>
+            </button>
+
+            <div class="input-wrapper">
+                <span class="material-symbols-outlined leading-icon" aria-hidden="true">search</span>
+                <input type="search" name="search" placeholder="Search..." class="input-field body-large" autocomplete="off" data-search-field>
+            </div>
+
+            <button class="icon-btn" aria-label="Clear search" data-search-clear-btn data-ripple>
+                <span class="material-symbols-outlined" aria-hidden="true">close</span>
+
+                <div class="state-layer"></div>
+            </button>
+
+            <button class="icon-btn search-btn" aria-label="Submit search" data-search-toggler data-ripple data-search-btn>
+                <span class="material-symbols-outlined" aria-hidden="true">search</span>
+
+                <div class="state-layer"></div>
+            </button>
+
+            <div class="state-layer"></div>
+        </div>
+        
+        <!--video 36:00 de 6:56:09--> 
+
+    </div>
+
+  </header>
+  
+</body>
 
 </html>
